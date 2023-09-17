@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<main class="container">
+  <div class="rating-state">
+    <img src="images/icon-star.svg" alt="icon-star.svg" class="img-star">
+    <h1>How did we do?</h1>
+    <p class='paragraph-info'>
+        Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!
+    </p>
+    <button class='rating js-button-1'  onclick="selected('.js-button-1')">1</button>
+    <button class='rating js-button-2' onclick="selected('.js-button-2')">2</button>
+    <button class='rating js-button-3'onclick="selected('.js-button-3')">3</button>
+    <button class='rating js-button-4'  onclick="selected('.js-button-4')">4</button>
+    <button class='rating js-button-5'  onclick="selected('.js-button-5')">5</button>
+    <p></p>
+    <button class='submit'>Submit</button>
+  </div>
+</main>
+<script src="main.js">
+
+</script>
+
+  <!-- Rating state start -->
+  <!--
+  How did we do?
+
+  Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!
+
+  1 2 3 4 5
+
+  Submit
+  -->
+
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+<!--
+  You selected ( Add rating here) out of 5
+
+  Thank you!
+
+  We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!
+-->
+
+
+  <!-- Thank you state end -->
+
+  
+
+</body>
+</html>
